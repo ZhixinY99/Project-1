@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+    <style>
+        
+        body {
+            background-color:antiquewhite; 
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;;
+        }
+        
+        .gallery img:active {
+            transform: scale(1.8);
+            cursor: pointer;
+        }
+    
+    
+    li, a, button {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color:white;
+        text-decoration: none;
+    }
+    
+    .logo {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: auto;
+    }
+
+    header {
+        background-color:plum;
+        padding: 6px 6%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .three-bars {
+        list-style: none;
+    }
+    
+    .three-bars li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .three-bars li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .three-bars li a:hover{
+        color:royalblue; 
+    }
+    
+    button {
+        margin-left: 30px;
+        padding: 9px 25px;
+        background-color:#54c7a6;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+
+    button:hover {
+        background-color:#60e0bc;
+    }
+
+    section {
+        padding: 0 100px;
+        display: flex;
+        align-items:center;
+        background: url(img/22.JPG);
+        height: 120vh;
+    }
+    .container {
+        position: absolute;;
+        flex-wrap: nowrap;
+    }
+    .container img {
+            width: 90px;
+            height: 90px;
+            margin: 20px 20px;
+        }
+
+    .container img:hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+    }
+
+    .item {
+            width: 90px;
+            height: 90px;
+            margin: 50px 20px;
+        }
+
+    @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    
+.box {
+        width: 500px;
+        height:220px;
+        margin-left: 300px;
+        margin-bottom: 400px;
+        padding: 50px;
+        background:rgba(255,255,255,.2)     
+    }
+
+.box:hover {
+    transform: scale(1.2);
+    background-color:lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+    .box h1 {
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 40px;
+        color:lightseagreen;
+        animation: text 5s infinite;
+    }
+
+    @keyframes text {
+        0% {
+            color:red;
+        }
+        30% {
+            letter-spacing: 5px;
+        }
+    }
+
+    .box h1:hover {
+        color:salmon;
+        cursor: pointer;
+    }
+
+</style>
+    <script src="libs/howler.js"></script>
+    <title>Dream Comes True</title>
+</head>
+
+
+
+
+
+<body>
+    
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    
+    <nav>
+        <ul class="three-bars">
+            <li><a href="index.html"> 《Little Forest, Little Wish》</a></li>
+            <li><a href="p2.html"> 《Quarantine Life 2020》 </a></li>
+        </ul>
+    </nav>
+        <a class="cta" href="p3.html"><button>Contact</button></a>
+    </header>
+
+
+    
+    <nav>
+       
+    <section>
+         <div class="container">
+             <div class="item" onmouseenter="playSound(sound1)" onmouseout="stopSound(sound1)">
+                <img src="img/mask.png" alt=""></div>
+            <div class="item" onmouseenter="playSound(sound2)" onmouseout="stopSound(sound2)">
+                <img src="img/flower.png" alt=""></div>
+            <div class="item" onmouseenter="playSound(sound3)" onmouseout="stopSound(sound3)">
+                <img src="img/pet.png" alt=""></div>
+            <div class="item" onmouseenter="playSound(sound4)" onmouseout="stopSound(sound4)">
+                <img src="img/wave.png" alt=""></div>   
+         </div>
+         
+         <div class="box">
+           <h1>Wear a mask wherever you go</h1>
+        </div>
+    </section>
+        
+    <div class="gallery">
+        <img src="img/1.jpeg" alt="">
+        <img src="img/2.jpeg" alt="">
+        <img src="img/7.jpeg" alt="">
+        <img src="img/4.jpeg" alt="">
+        <img src="img/5.jpeg" alt="">
+        <img src="img/3.jpeg" alt="">
+        <img src="img/9.jpeg" alt="">
+        <img src="img/8.jpeg" alt="">
+        <img src="img/6.jpeg" alt="">
+        <img src="img/10.jpeg" alt=""> 
+    </div>
+      
+    </nav>
+
+</body>
+
+
+
+
+<script>
+    const sound1 = new Howl({ src: 'sounds/crowd.mp3' });
+    const sound2 = new Howl({ src: 'sounds/bird.mp3' });
+    const sound3 = new Howl({ src: 'sounds/dog.mp3' });
+    const sound4 = new Howl({ src: 'sounds/beach.mp3' });
+    
+    console.log(sound1);
+    const playSound = (sound) => {
+        //this conditional checks to see if the sound is already playing, and if it is not it plays it
+        if(!sound.playing()){
+            sound.play();
+        }
+        
+    }
+    
+    //this function will stop the sound
+    const stopSound = (sound) => {
+        console.log('triggered');
+        sound.stop();
+    }
+    
+    </script>
+</html>

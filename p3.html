@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="=X-UA-Compatible" content="IE=edge">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+    <style>
+        body {
+            background-color:plum; 
+            background-size: cover;
+            text-align: center;
+        }
+       
+
+        .logo {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: auto;
+        }
+
+       
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: plum;
+        }
+
+        li, a, button {
+            font-family: "Abril Fatface", sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            color:white;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 10%;
+        }
+
+        .logo {
+            cursor: pointer;
+            margin-right: auto;
+        }
+
+        .three-bars {
+            list-style: none;
+        }
+        
+        .three-bars li {
+            display: inline-block;
+            padding: 0px 20px;
+        }
+
+        .three-bars li a {
+            transition: all 0.3s ease 0s;
+        }
+
+        .three-bars li a:hover{
+            color:royalblue; 
+        }
+        
+        button {
+            margin-left: 30px;
+            padding: 9px 25px;
+            background-color:#54c7a6;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+
+        button:hover {
+            background-color:#60e0bc;
+        }
+        
+        .contact-section {
+        background:plum;
+        background-size: cover;
+        margin-top: 100px;
+        }
+
+        .contact-section h1{
+            text-align: center;
+            color:teal;
+        }
+        
+        .border {
+            width: 100px;
+            height: 10px;
+            background: tomato;
+            margin: 40px auto;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            padding: 0 10px;
+            overflow: hidden;
+        }
+
+        .contact-form-text {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 16px 0;
+            border: 0;
+            background:powderblue;
+            padding: 20px 40px;
+            outline: none;
+            color:rgb(211, 81, 124);
+            transition: 0.5s;
+        }
+
+        .contact-form-text:focus {
+            box-shadow: 0 0 10px 4px burlywood;
+        }
+
+        textarea.contact-form-text {
+            resize: none;
+            height: 120px;
+        }
+
+        .contact-form-btn {
+            float: right;
+            border: 0;
+            background:seagreen;
+            color:wheat;
+            padding: 10px 23px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .contact-form-btn:hover {
+            background:slategray;
+        }
+
+    </style>
+
+    
+
+
+
+    <title>Project #1</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    
+    <nav>
+        <ul class="three-bars">
+            <li><a href="index.html"> 《Little Forest, Little Wish》 </a></li>
+            <li><a href="p2.html"> 《Quarantine Life 2020》 </a></li>
+        </ul>
+    </nav>
+        <a class="cta" href="p3.html"><button>Contact</button></a>
+    </header>
+
+    
+    <div class="contact-section">
+        <h1>Contact Me</h1>
+        <form class="contact-form" action="pageFour.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <input type="phone" class="contact-form-text" placeholder="Your phone">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-btn" placeholder="Send">
+        </form>
+
+    </div>
+    
+
+  
+
+
+
+    
+
+</html>

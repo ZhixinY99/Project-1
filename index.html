@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+    <style>
+        
+        body {
+            background-color:#cefab1; 
+            background-size: cover;
+            text-align: center;
+        }
+        
+        nav img {
+            width: 80px;
+            height: 130px;
+            margin-top: 30px;
+        }
+
+        nav img:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+
+        
+    
+
+    li, a, button {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color:white;
+        text-decoration: none;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        margin-right: auto;
+        margin-top: 2px;
+        margin-bottom: auto;
+        }
+
+    header {
+        background-color:plum;
+        padding: 6px 6%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .three-bars {
+        list-style: none;
+    }
+    
+    .three-bars li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .three-bars li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .three-bars li a:hover{
+        color:royalblue; 
+    }
+    
+    button {
+        margin-left: 30px;
+        padding: 9px 25px;
+        background-color:#54c7a6;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    button:hover {
+        background-color:#60e0bc;
+    }
+    
+    section {
+        padding: 0 100px;
+        display: flex;
+        align-items:center;
+        background: url(img/23.jpg);
+        height: 83vh;
+        
+    }
+
+    .box {
+        position:relative;
+        max-width: 2000px;
+        padding: 100px 100px 100px 100px;
+        background:rgba(255,255,255,.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+
+    .box h1 {
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 37px;
+        color:darkolivegreen;
+        animation: text 5s infinite;
+    }
+    .box h1:hover{
+        cursor: pointer;
+    }
+
+    @keyframes text {
+        0% {
+            color:yellowgreen;
+        }
+        30% {
+            letter-spacing: 20px;
+        }
+    }
+
+    .box p {
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+        color:dimgray;
+    }
+
+    .item {
+        position: relative;
+        margin-left: auto;
+        margin-bottom: auto;
+        background-color:lightpink;
+    }
+    .item img {
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+    }
+    
+    .item:hover {
+        cursor: pointer;
+    }
+</style>
+
+    <script src="libs/howler.js"></script>
+
+    <title>Dream Comes True</title>
+</head>
+
+
+<body>
+    
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    
+    <nav>
+        <ul class="three-bars">
+            <li><a href="index.html"> 《Little Forest, Little Wish》</a></li>
+            <li><a href="p2.html"> 《Quarantine Life 2020》 </a></li>
+        </ul>
+    </nav>
+        <a class="cta" href="pageFour.html"><button>Contact</button></a>
+    </header>
+
+    <section>
+        <div class="box">
+           <h1>Little Forest, Little Wish</h1>
+           <p>I recorded 4 seasons for the trees standing in front of my house since last year. 
+            I name this the same as the Japanese film "Little Forest", which is also a recording of 
+            4 seasons based on a girl's life. I feel like this is my version of "Little Forest".
+            I particularly enjoyed the 4 series of the film, but I would venture to guess that 
+            a hothead would not have liked such a slow play. The speed with which modern people receive 
+            information, think and change is too fast. Too many people have lost the ability to feel the 
+            world with their heart, and so did I a few years ago. Over the course of a year documenting 
+            these photographs, I began to become more aware of the subtle changes that had taken place 
+            around me that I had previously overlooked. I may not stay in the same place for a long 
+            time anymore, recording everything that changes silently, but I will always try to feel, 
+            rather than forget and ignore.</p>
+            </div>
+        <div class="item" onclick="playSound(sound1)" onclick="stopSound(sound1)">
+            <img src="img/music.png" alt="">
+        </div>
+        </div>
+   </section>
+
+
+    <nav>
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        <img src="img/11.jpeg" alt="">
+        
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+        <img src="img/12.jpeg" alt="">
+
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+        <img src="img/13.jpeg" alt="">
+
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+        <img src="img/14.jpeg" alt="">
+
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+        <img src="img/15.jpeg" alt="">
+
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+        <img src="img/16.jpeg" alt="">
+
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+        <img src="img/17.jpeg" alt="">
+
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+        <img src="img/18.jpeg" alt="">
+
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+        <img src="img/19.jpeg" alt="">
+
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+        <img src="img/20.jpeg" alt=""> 
+    </nav>
+
+</body>
+</html>
+
+<script>
+    const sound1 = new Howl({ src: 'sounds/sky stroll.mp3' });
+   
+    
+    console.log(sound1);
+    const playSound = (sound) => {
+        //this conditional checks to see if the sound is already playing, and if it is not it plays it
+        if(!sound.playing()){
+            sound.play();
+        }
+        
+    }
+    
+    //this function will stop the sound
+    const stopSound = (sound) => {
+        console.log('triggered');
+        sound.stop();
+    }
+    
+    </script>
